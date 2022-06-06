@@ -75,7 +75,7 @@ onMounted(() => {
     console.log(props.cart)
 })
 
-let stripe = Stripe("pk_test_51L7OBJCnSZgIhqBcuZ1tMG06njq9ARr5zXzizD6jhEI7WCvf6Ee16epekqJP3ExFwIX1y5BBPF5fIeguIafiqSFj004YXeDR9Y")
+let stripe = Stripe("pk_test_51L7QREIT9JxsWLL8KiwrgZRiU627FiL6bb7XJiQOJG9WrGmDkf8Vk6tyfnMYEGPfnqUplgmgKL4zZeXGwN9d6ea900EPV3tVrS")
 
 function sum(data) {
     var sum = 0;
